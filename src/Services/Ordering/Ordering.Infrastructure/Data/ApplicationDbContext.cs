@@ -18,3 +18,4 @@ public class ApplicationDbContext : DbContext
         base.OnModelCreating(builder);
     }
 }
+//dotnet ef add initial --verbose --project Ordering.Infrastructure   --startup-project Ordering
