@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Application", "Ser
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Infrastructure", "Services\Ordering\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{DBEF2F8F-94A5-467F-A004-D4E9830D3437}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks.Messaging", "BuildingBlocks\BuildingBlocks.Messaging\BuildingBlocks.Messaging.csproj", "{9D746887-D1B5-4ECD-A3B8-913ADEFD7ED3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,12 +77,13 @@ Global
 		{DBEF2F8F-94A5-467F-A004-D4E9830D3437}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBEF2F8F-94A5-467F-A004-D4E9830D3437}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBEF2F8F-94A5-467F-A004-D4E9830D3437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D746887-D1B5-4ECD-A3B8-913ADEFD7ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D746887-D1B5-4ECD-A3B8-913ADEFD7ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D746887-D1B5-4ECD-A3B8-913ADEFD7ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D746887-D1B5-4ECD-A3B8-913ADEFD7ED3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CC639C9E-25AF-41C6-A30B-D13011987B39}
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EA648BF2-3C61-4419-B789-106C4BBB5F8E} = {78E2B7D9-AC20-4544-9444-960B67E942C1}
@@ -95,5 +98,9 @@ Global
 		{C76A9811-C843-423D-A726-8F32366FAC09} = {9553A504-2BF6-4ED4-9030-07470CC5BCD9}
 		{23CDE648-6072-4AC1-A1F6-9697881ECA11} = {9553A504-2BF6-4ED4-9030-07470CC5BCD9}
 		{DBEF2F8F-94A5-467F-A004-D4E9830D3437} = {9553A504-2BF6-4ED4-9030-07470CC5BCD9}
+		{9D746887-D1B5-4ECD-A3B8-913ADEFD7ED3} = {035DDAF5-F1C8-4A8D-8EA3-ED78B822EB59}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC639C9E-25AF-41C6-A30B-D13011987B39}
 	EndGlobalSection
 EndGlobal

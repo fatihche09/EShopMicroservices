@@ -13,10 +13,14 @@
     <LangVersion>preview</LangVersion>
   </PropertyGroup>
   <ItemGroup>
+    <ProjectReference Include="../../../BuildingBlocks/BuildingBlocks.Messaging/BuildingBlocks.Messaging.csproj" />
     <ProjectReference Include="..\..\..\BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj" />
     <ProjectReference Include="..\Ordering.Domain\Ordering.Domain.csproj" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="MassTransit" Version="8.1.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.2" />
+    <PackageReference Include="Microsoft.FeatureManagement.AspNetCore" Version="3.2.0" />
+    
   </ItemGroup>
 </Project>
